@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Debugging">
+      <UniqueIdentifier>{cb11c6a5-bc5c-48f0-a4cd-240b2742d61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Miscellaneous">
+      <UniqueIdentifier>{baf12450-f012-489e-84d1-7f3d4b83e07a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\More About Functions">
+      <UniqueIdentifier>{a3d6834a-e158-49ad-9eee-69c63e007a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\More About Variables">
+      <UniqueIdentifier>{a77a08cc-6ef0-4729-b699-20ed8416d2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Printing &amp; Formatting">
+      <UniqueIdentifier>{72785bc9-4788-41fc-92f0-87d269a27857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\More About Arrays">
+      <UniqueIdentifier>{ecdf1f51-0d62-4d6b-9f5e-1d9027d960c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vectors Part I">
+      <UniqueIdentifier>{79070969-34b6-4124-a64c-48aa5b362469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\References">
+      <UniqueIdentifier>{dc36bd7c-a017-4ce5-a3fa-b71fc3cf7e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pointers">
+      <UniqueIdentifier>{1e6049a7-5cc8-4ab4-864e-aa2f788fb5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dynamic Memory Allocation">
+      <UniqueIdentifier>{9a234b45-1f17-4608-b0db-dd6d6ad3fba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vectors Part II">
+      <UniqueIdentifier>{606b28a9-09e5-4b7f-90da-59a0203b4e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exception Handling">
+      <UniqueIdentifier>{b6a7e5e4-3855-48e2-9679-0e3505ed71fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dealing With Strings">
+      <UniqueIdentifier>{fde217b7-ea61-4963-ad7e-a6e5a0547821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Files">
+      <UniqueIdentifier>{0b09778a-76a0-48f3-8969-8d33b5506947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DateTime">
+      <UniqueIdentifier>{17870a1b-d111-4749-adc3-c0034ce4f802}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Breakpoint &amp; Memory Values01.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>Source Files\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>Source Files\More About Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <Filter>Source Files\More About Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>Source Files\Printing &amp; Formatting</Filter>
+    </ClCompile>
+    <ClCompile Include="11.cpp">
+      <Filter>Source Files\Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="12.cpp">
+      <Filter>Source Files\Dealing With Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="13.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="14.cpp">
+      <Filter>Source Files\DateTime</Filter>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <Filter>Source Files\More About Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="6.cpp">
+      <Filter>Source Files\Vectors Part I</Filter>
+    </ClCompile>
+    <ClCompile Include="7.cpp">
+      <Filter>Source Files\References</Filter>
+    </ClCompile>
+    <ClCompile Include="8.cpp">
+      <Filter>Source Files\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="9.cpp">
+      <Filter>Source Files\Dynamic Memory Allocation</Filter>
+    </ClCompile>
+    <ClCompile Include="10.cpp">
+      <Filter>Source Files\Vectors Part II</Filter>
+    </ClCompile>
+    <ClCompile Include="More about Breakpoints02.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Autos Window03.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Quick Watch Window04.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Changing Values in Debugging Mode05.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Step Into\Over\Step Into and Over and Out 06.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
