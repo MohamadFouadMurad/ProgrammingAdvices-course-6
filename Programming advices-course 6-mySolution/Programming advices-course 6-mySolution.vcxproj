@@ -19,26 +19,67 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01-Debugging\01-Breakpoint &amp; Memory Values.cpp" />
-    <ClCompile Include="01-Debugging\02-More about Breakpoints.cpp" />
-    <ClCompile Include="01-Debugging\03-Autos Window.cpp" />
-    <ClCompile Include="01-Debugging\04-Quick Watch Window.cpp" />
-    <ClCompile Include="01-Debugging\05-Changing Values in Debugging Mode.cpp" />
-    <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp" />
-    <ClCompile Include="02-Miscellaneous\1.cpp" />
-    <ClCompile Include="03-More About Functions\2.cpp" />
-    <ClCompile Include="04-More About Variables\3.cpp" />
-    <ClCompile Include="05-Printing &amp; Formatting\4.cpp" />
-    <ClCompile Include="06-More About Arrays\5.cpp" />
-    <ClCompile Include="07-Vectors Part I\6.cpp" />
-    <ClCompile Include="08-References\7.cpp" />
-    <ClCompile Include="09-Pointers\8.cpp" />
-    <ClCompile Include="10-Dynamic Memory Allocation\9.cpp" />
-    <ClCompile Include="11-Vectors Part II\10.cpp" />
-    <ClCompile Include="12-Exception Handling\11.cpp" />
-    <ClCompile Include="13-Dealing With Strings\12.cpp" />
-    <ClCompile Include="14-Files\13.cpp" />
-    <ClCompile Include="15-DateTime\14.cpp" />
+    <ClCompile Include="01-Debugging\01-Breakpoint &amp; Memory Values.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\02-More about Breakpoints.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\03-Autos Window.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\04-Quick Watch Window.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\05-Changing Values in Debugging Mode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\Create My Own Library.cpp" />
+    <ClCompile Include="03-More About Functions\2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04-More About Variables\3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05-Printing &amp; Formatting\4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="06-More About Arrays\5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="07-Vectors Part I\6.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="08-References\7.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\8.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="10-Dynamic Memory Allocation\9.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="11-Vectors Part II\10.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="12-Exception Handling\11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="13-Dealing With Strings\12.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="14-Files\13.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="15-DateTime\14.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyHeaders\MyMathFunctions.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
@@ -133,6 +174,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Header Files</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
