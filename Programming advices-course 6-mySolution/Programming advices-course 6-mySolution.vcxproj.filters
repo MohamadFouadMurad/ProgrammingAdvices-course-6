@@ -117,7 +117,16 @@
     <ClCompile Include="15-DateTime\14.cpp">
       <Filter>Source Files\15-DateTime</Filter>
     </ClCompile>
-    <ClCompile Include="02-Miscellaneous\Create My Own Library.cpp">
+    <ClCompile Include="02-Miscellaneous\01-Create My Own Library.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\03-Ranged Loop.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\02-Ternary Operator Short Hand IF.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\04-Validate Number.cpp">
       <Filter>Source Files\02-Miscellaneous</Filter>
     </ClCompile>
   </ItemGroup>

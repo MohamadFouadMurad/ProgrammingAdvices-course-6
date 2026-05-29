@@ -16,7 +16,7 @@ namespace myfunc
 		return Number;
 	}
 
-	int ReadfloatNumber(string message)
+	int ReadFloatNumber(string message)
 	{
 		float Number = 0;
 		cout << message << " : ";
@@ -24,7 +24,7 @@ namespace myfunc
 		return float(Number);
 	}
 
-	int ReaddoubeleNumber(string message)
+	int ReadDoubeleNumber(string message)
 	{
 		double Number = 0;
 		cout << message << " : ";
@@ -32,26 +32,50 @@ namespace myfunc
 		return double(Number);
 	}
 
-	string Readstring(string message)
+	string ReadString(string message)
 	{
 		string stringer = "";
-		getline(std::cin, stringer);
+		getline(cin, stringer);
 		return stringer;
 	}
 
-	int randomNum(int from, int to)
+	int RandomNumber(int from, int to)
 	{
 		return rand() % (to - from + 1) + from;
 	}
 
-	int mySqrt(int sqrt)
-	{
-		return pow(sqrt, 0.5);
-	}
-
-	int evenOrOdd(int number)
+	int EvenOrOdd(int number)
 	{
 		return number % 2;
+	}
+
+	string CheckPositiveOrNegativeOrZero(int number)
+	{
+		if (number > 0)
+			return "positive";
+		else if (number < 0)
+			return "negative";
+		else
+			return "zero";
+	}
+
+	int ReadValidNumberOnly(string message)
+	{
+		int Number;
+		cout << message << endl;
+		cin >> Number;
+
+
+		while (cin.fail())
+		{
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+			cout << "Invalid Number, Enter a valid one:" << endl;
+			cin >> Number;
+		}
+
+		return Number;
 	}
 
 }
