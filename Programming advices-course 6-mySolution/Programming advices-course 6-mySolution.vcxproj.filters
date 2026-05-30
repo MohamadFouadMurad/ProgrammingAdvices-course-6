@@ -135,6 +135,12 @@
     <ClCompile Include="03-More About Functions\01-Declaration Vs Definition.cpp">
       <Filter>Source Files\03-More About Functions</Filter>
     </ClCompile>
+    <ClCompile Include="03-More About Functions\02-Default Parameters.cpp">
+      <Filter>Source Files\03-More About Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="03-More About Functions\03-Function Overloading.cpp">
+      <Filter>Source Files\03-More About Functions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyHeaders\MyMathFunctions.h">
