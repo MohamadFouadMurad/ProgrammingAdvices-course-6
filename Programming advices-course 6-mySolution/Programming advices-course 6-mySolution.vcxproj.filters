@@ -129,6 +129,12 @@
     <ClCompile Include="02-Miscellaneous\04-Validate Number.cpp">
       <Filter>Source Files\02-Miscellaneous</Filter>
     </ClCompile>
+    <ClCompile Include="02-Miscellaneous\05-Bitwise AND operator.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\06-Bitwise OR operator.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyHeaders\MyMathFunctions.h">
