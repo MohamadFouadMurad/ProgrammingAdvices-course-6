@@ -78,9 +78,6 @@
     <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
       <Filter>Source Files\01-Debugging</Filter>
     </ClCompile>
-    <ClCompile Include="03-More About Functions\2.cpp">
-      <Filter>Source Files\03-More About Functions</Filter>
-    </ClCompile>
     <ClCompile Include="04-More About Variables\3.cpp">
       <Filter>Source Files\04-More About Variables</Filter>
     </ClCompile>
@@ -134,6 +131,9 @@
     </ClCompile>
     <ClCompile Include="02-Miscellaneous\06-Bitwise OR operator.cpp">
       <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="03-More About Functions\01-Declaration Vs Definition.cpp">
+      <Filter>Source Files\03-More About Functions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
