@@ -58,10 +58,10 @@
     <ClCompile Include="03-More About Functions\01-Declaration Vs Definition.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="03-More About Functions\02-Default Parameters.cpp" />
-    <ClCompile Include="03-More About Functions\03-Function Overloading.cpp">
+    <ClCompile Include="03-More About Functions\02-Default Parameters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="03-More About Functions\03-Function Overloading.cpp" />
     <ClCompile Include="04-More About Variables\3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
