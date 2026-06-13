@@ -4,3 +4,9 @@ Debug/
 Release/
 *.user
 *.suo
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.json
