@@ -32,21 +32,11 @@ namespace myfunc
 		return double(Number);
 	}
 
-	string ReadString(string message)
+	string ReadFullName(string message)
 	{
-		string stringer = "";
-		getline(cin, stringer);
-		return stringer;
-	}
-
-	int RandomNumber(int from, int to)
-	{
-		return rand() % (to - from + 1) + from;
-	}
-
-	int EvenOrOdd(int number)
-	{
-		return number % 2;
+		string FullName = "";
+		getline(cin,FullName);
+		return FullName;
 	}
 
 	string CheckPositiveOrNegativeOrZero(int number)
@@ -79,3 +69,162 @@ namespace myfunc
 	}
 
 }
+
+namespace InPut
+{
+	int printMessageAndReadNumberFromTo(string message, int from, int to)
+	{
+		int num = 0;
+		do
+		{
+			cout << message << "From" + to_string(from) + "To" + to_string(to) << endl;
+			cin >> num;
+		} while (num > to || num < from);
+		return num;
+	}
+
+	int ReadPositiveNumber(string message)
+	{
+		int num;
+		do
+		{
+			cout << message << endl;
+			cin >> num;
+		} while (num < 0);
+		return num;
+	}
+}
+
+namespace OutPut
+{
+	void FindNumberIndex(int arr[100], int arrLength, int target)
+	{
+		cout << "number you are looking for is: " << target << endl;
+		for (int i = 0; i < arrLength; i++)
+		{
+			if (target == arr[i])
+			{
+				cout << "the number found at position : " << i << "\n";
+				cout << "the number found it's order  : " << i + 1 << "\n";
+				return;
+			}
+		}
+		cout << "the number is not found :-(\n";
+	}
+
+	void PrintArray(int arr[], int arrLength)
+	{
+		for (int i = 0; i < arrLength; i++)
+		{
+			cout << arr[i] << "\t";
+		}
+	}
+
+	void PrintStringArray(string arr[], int arrLength)
+	{
+		for (int i = 0; i < arrLength; i++)
+			cout << "code [" << i + 1 << "] : " << arr[i] << endl;
+	}
+
+	string Taps(short NumberOfTaps)
+	{
+		string tap = "";
+		for (int i = 1; i <= NumberOfTaps; i++)
+		{
+			tap += "\t";
+		}
+		return tap;
+	}
+
+}
+
+namespace Helpers
+{
+	int RandomNumber(int from, int to)
+	{
+		int RandomNumber;
+		return RandomNumber	= rand() % (to - from + 1) + from;
+	}
+
+	void FillArrayWithRandomNumbers(int arr[], int arrLength)
+	{
+		for (int i = 0; i < arrLength; i++)
+			arr[i] = RandomNumber(1, 100);
+	}
+
+	void CopyReverseArray(int arr1[], int arr2[], int arrLength)
+	{
+		for (int i = 0; i < arrLength; i++)
+		{
+			arr2[i] = arr1[arrLength - 1 - i];
+		}
+	}
+
+	string WordGeneration()
+	{
+		string word = "";
+		word = char(RandomNumber(65, 90));
+		word += char(RandomNumber(65, 90));
+		word += char(RandomNumber(65, 90));
+		word += char(RandomNumber(65, 90));
+		return word;
+	}
+
+	string TextGeneration()
+	{
+		string Text = WordGeneration() + "-";
+		Text += WordGeneration() + "-";
+		Text += WordGeneration() + "-";
+		Text += WordGeneration();
+		return Text;
+	}
+
+	void FillStringArray(string arr[], int arrLength)
+	{
+		for (int i = 0; i < arrLength; i++)
+			arr[i] = TextGeneration();
+	}
+
+	bool IsInArray(int searchValue, int arr[], int arrLength)
+	{
+		for (int i = 0; i < arrLength; i++)
+		{
+			if (searchValue == arr[i])
+				return true;
+		}
+		return false;
+	}
+
+	bool IsPrimeNumber(int num)
+	{
+		int M = round(num / 2);
+		for (int i = 2; i <= M; i++)
+		{
+			if (num % i == 0)
+				return false;
+		}
+		return true;
+	}
+
+	bool IsPalindrome(int arr[], int arrLength)
+	{
+		for (int i = 0; i < arrLength; i++)
+		{
+			if (arr[i] != arr[arrLength - i - 1])
+				return false;
+		}
+		return true;
+	}
+
+	bool IsEvenNumber(int number)
+	{
+		return (number % 2 == 0);
+	}
+
+	void ResetScreen()
+	{
+		system("cls");
+		system("color 0F");
+	}
+}
+

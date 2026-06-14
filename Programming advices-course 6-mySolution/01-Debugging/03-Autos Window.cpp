@@ -9,7 +9,6 @@ int MySum(int a, int b)
 	return s;
 }
 
-
 int main()
 {
 	int arr1[5] = { 200,100,50,25,30 };
