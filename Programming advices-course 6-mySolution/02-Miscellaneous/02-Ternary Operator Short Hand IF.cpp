@@ -3,6 +3,7 @@
 #include "../MyHeaders/MyMathFunctions.h"
 using namespace std;
 using namespace myfunc;
+using namespace Helpers;
 
 
 int main()
