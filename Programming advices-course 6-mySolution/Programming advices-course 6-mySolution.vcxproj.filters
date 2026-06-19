@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01-Debugging">
+      <UniqueIdentifier>{cb11c6a5-bc5c-48f0-a4cd-240b2742d61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02-Miscellaneous">
+      <UniqueIdentifier>{baf12450-f012-489e-84d1-7f3d4b83e07a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03-More About Functions">
+      <UniqueIdentifier>{a3d6834a-e158-49ad-9eee-69c63e007a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04-More About Variables">
+      <UniqueIdentifier>{a77a08cc-6ef0-4729-b699-20ed8416d2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05-Printing &amp; Formatting">
+      <UniqueIdentifier>{72785bc9-4788-41fc-92f0-87d269a27857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\06-More About Arrays">
+      <UniqueIdentifier>{ecdf1f51-0d62-4d6b-9f5e-1d9027d960c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\07-Vectors Part I">
+      <UniqueIdentifier>{79070969-34b6-4124-a64c-48aa5b362469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\08-References">
+      <UniqueIdentifier>{dc36bd7c-a017-4ce5-a3fa-b71fc3cf7e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\09-Pointers">
+      <UniqueIdentifier>{1e6049a7-5cc8-4ab4-864e-aa2f788fb5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\10-Dynamic Memory Allocation">
+      <UniqueIdentifier>{9a234b45-1f17-4608-b0db-dd6d6ad3fba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\11-Vectors Part II">
+      <UniqueIdentifier>{606b28a9-09e5-4b7f-90da-59a0203b4e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\12-Exception Handling">
+      <UniqueIdentifier>{b6a7e5e4-3855-48e2-9679-0e3505ed71fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\13-Dealing With Strings">
+      <UniqueIdentifier>{fde217b7-ea61-4963-ad7e-a6e5a0547821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\14-Files">
+      <UniqueIdentifier>{0b09778a-76a0-48f3-8969-8d33b5506947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\15-DateTime">
+      <UniqueIdentifier>{17870a1b-d111-4749-adc3-c0034ce4f802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyHeaders">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01-Debugging\01-Breakpoint &amp; Memory Values.cpp">
+      <Filter>Source Files\01-Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\02-More about Breakpoints.cpp">
+      <Filter>Source Files\01-Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\03-Autos Window.cpp">
+      <Filter>Source Files\01-Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\04-Quick Watch Window.cpp">
+      <Filter>Source Files\01-Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\05-Changing Values in Debugging Mode.cpp">
+      <Filter>Source Files\01-Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
+      <Filter>Source Files\01-Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="04-More About Variables\3.cpp">
+      <Filter>Source Files\04-More About Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="05-Printing &amp; Formatting\4.cpp">
+      <Filter>Source Files\05-Printing &amp; Formatting</Filter>
+    </ClCompile>
+    <ClCompile Include="06-More About Arrays\5.cpp">
+      <Filter>Source Files\06-More About Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="07-Vectors Part I\6.cpp">
+      <Filter>Source Files\07-Vectors Part I</Filter>
+    </ClCompile>
+    <ClCompile Include="08-References\7.cpp">
+      <Filter>Source Files\08-References</Filter>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\8.cpp">
+      <Filter>Source Files\09-Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="10-Dynamic Memory Allocation\9.cpp">
+      <Filter>Source Files\10-Dynamic Memory Allocation</Filter>
+    </ClCompile>
+    <ClCompile Include="11-Vectors Part II\10.cpp">
+      <Filter>Source Files\11-Vectors Part II</Filter>
+    </ClCompile>
+    <ClCompile Include="12-Exception Handling\11.cpp">
+      <Filter>Source Files\12-Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="13-Dealing With Strings\12.cpp">
+      <Filter>Source Files\13-Dealing With Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="14-Files\13.cpp">
+      <Filter>Source Files\14-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="15-DateTime\14.cpp">
+      <Filter>Source Files\15-DateTime</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\01-Create My Own Library.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\03-Ranged Loop.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\02-Ternary Operator Short Hand IF.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\04-Validate Number.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\05-Bitwise AND operator.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="02-Miscellaneous\06-Bitwise OR operator.cpp">
+      <Filter>Source Files\02-Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="03-More About Functions\01-Declaration Vs Definition.cpp">
+      <Filter>Source Files\03-More About Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="03-More About Functions\02-Default Parameters.cpp">
+      <Filter>Source Files\03-More About Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="03-More About Functions\03-Function Overloading.cpp">
+      <Filter>Source Files\03-More About Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="03-More About Functions\04-Call StackCall Hierarchy.cpp">
+      <Filter>Source Files\03-More About Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="03-More About Functions\05-VS Function Tips.cpp">
+      <Filter>Source Files\03-More About Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="03-More About Functions\06-Recursion.cpp">
+      <Filter>Source Files\03-More About Functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyHeaders\MyMathFunctions.h">
+      <Filter>MyHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
