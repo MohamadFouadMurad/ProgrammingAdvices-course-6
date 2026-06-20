@@ -1,0 +1,1 @@
+// I learned that the 'register' keyword was used to store variables directly in the CPU for maximum speed, but it was deprecated because CPU registers are a highly limited and expensive resource.

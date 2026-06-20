@@ -70,8 +70,14 @@
     <ClCompile Include="03-More About Functions\05-VS Function Tips.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="03-More About Functions\06-Recursion.cpp" />
-    <ClCompile Include="04-More About Variables\3.cpp">
+    <ClCompile Include="03-More About Functions\06-Recursion.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04-More About Variables\01-Static variables.cpp" />
+    <ClCompile Include="04-More About Variables\02-Automatic variables.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04-More About Variables\03-Register variable.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="05-Printing &amp; Formatting\4.cpp">
