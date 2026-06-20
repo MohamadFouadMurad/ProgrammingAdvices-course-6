@@ -1,5 +1,6 @@
 // I learned how to use 'printf' with '%d' for integers and how to dynamically control width using '%0*d'.
 #include <iostream>
+#include <cstdio>
 using namespace std;
 
 

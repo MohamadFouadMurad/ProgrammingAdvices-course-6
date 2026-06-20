@@ -78,9 +78,6 @@
     <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
       <Filter>Source Files\01-Debugging</Filter>
     </ClCompile>
-    <ClCompile Include="06-More About Arrays\5.cpp">
-      <Filter>Source Files\06-More About Arrays</Filter>
-    </ClCompile>
     <ClCompile Include="07-Vectors Part I\6.cpp">
       <Filter>Source Files\07-Vectors Part I</Filter>
     </ClCompile>
@@ -164,6 +161,9 @@
     </ClCompile>
     <ClCompile Include="05-Printing &amp; Formatting\04-Setw Manipulator (printf).cpp">
       <Filter>Source Files\05-Printing &amp; Formatting</Filter>
+    </ClCompile>
+    <ClCompile Include="06-More About Arrays\01-Two Dimensional Arrays.cpp">
+      <Filter>Source Files\06-More About Arrays</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

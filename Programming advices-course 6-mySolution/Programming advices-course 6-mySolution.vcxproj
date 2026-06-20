@@ -82,7 +82,9 @@
     <ClCompile Include="04-More About Variables\03-Register variable.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="05-Printing &amp; Formatting\01-Integer Format (printf).cpp" />
+    <ClCompile Include="05-Printing &amp; Formatting\01-Integer Format (printf).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="05-Printing &amp; Formatting\02-Float Format (printf).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -92,7 +94,7 @@
     <ClCompile Include="05-Printing &amp; Formatting\04-Setw Manipulator (printf).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="06-More About Arrays\5.cpp">
+    <ClCompile Include="06-More About Arrays\01-Two Dimensional Arrays.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="07-Vectors Part I\6.cpp">
