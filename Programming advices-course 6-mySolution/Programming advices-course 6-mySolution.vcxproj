@@ -94,9 +94,7 @@
     <ClCompile Include="05-Printing &amp; Formatting\04-Setw Manipulator (printf).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="06-More About Arrays\01-Two Dimensional Arrays.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="06-More About Arrays\01-Two Dimensional Arrays.cpp" />
     <ClCompile Include="07-Vectors Part I\6.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
