@@ -78,9 +78,6 @@
     <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
       <Filter>Source Files\01-Debugging</Filter>
     </ClCompile>
-    <ClCompile Include="07-Vectors Part I\6.cpp">
-      <Filter>Source Files\07-Vectors Part I</Filter>
-    </ClCompile>
     <ClCompile Include="08-References\7.cpp">
       <Filter>Source Files\08-References</Filter>
     </ClCompile>
@@ -164,6 +161,21 @@
     </ClCompile>
     <ClCompile Include="06-More About Arrays\01-Two Dimensional Arrays.cpp">
       <Filter>Source Files\06-More About Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="07-Vectors Part I\01-Introduction , Declaration and Initialization.cpp">
+      <Filter>Source Files\07-Vectors Part I</Filter>
+    </ClCompile>
+    <ClCompile Include="07-Vectors Part I\02-Add element.cpp">
+      <Filter>Source Files\07-Vectors Part I</Filter>
+    </ClCompile>
+    <ClCompile Include="07-Vectors Part I\03-Vector ofstructure.cpp">
+      <Filter>Source Files\07-Vectors Part I</Filter>
+    </ClCompile>
+    <ClCompile Include="07-Vectors Part I\04-Remove elements.cpp">
+      <Filter>Source Files\07-Vectors Part I</Filter>
+    </ClCompile>
+    <ClCompile Include="07-Vectors Part I\05-Vector functios.cpp">
+      <Filter>Source Files\07-Vectors Part I</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
