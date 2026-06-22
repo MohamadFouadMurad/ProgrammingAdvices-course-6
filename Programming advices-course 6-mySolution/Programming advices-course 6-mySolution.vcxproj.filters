@@ -78,9 +78,6 @@
     <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
       <Filter>Source Files\01-Debugging</Filter>
     </ClCompile>
-    <ClCompile Include="08-References\7.cpp">
-      <Filter>Source Files\08-References</Filter>
-    </ClCompile>
     <ClCompile Include="09-Pointers\8.cpp">
       <Filter>Source Files\09-Pointers</Filter>
     </ClCompile>
@@ -176,6 +173,12 @@
     </ClCompile>
     <ClCompile Include="07-Vectors Part I\05-Vector functios.cpp">
       <Filter>Source Files\07-Vectors Part I</Filter>
+    </ClCompile>
+    <ClCompile Include="08-References\01-call BeRef and ByVal.cpp">
+      <Filter>Source Files\08-References</Filter>
+    </ClCompile>
+    <ClCompile Include="08-References\02-Creating References.cpp">
+      <Filter>Source Files\08-References</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
