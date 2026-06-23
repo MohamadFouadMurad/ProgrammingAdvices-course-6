@@ -78,9 +78,6 @@
     <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
       <Filter>Source Files\01-Debugging</Filter>
     </ClCompile>
-    <ClCompile Include="09-Pointers\8.cpp">
-      <Filter>Source Files\09-Pointers</Filter>
-    </ClCompile>
     <ClCompile Include="10-Dynamic Memory Allocation\9.cpp">
       <Filter>Source Files\10-Dynamic Memory Allocation</Filter>
     </ClCompile>
@@ -179,6 +176,30 @@
     </ClCompile>
     <ClCompile Include="08-References\02-Creating References.cpp">
       <Filter>Source Files\08-References</Filter>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\01-What is Pointe.cpp">
+      <Filter>Source Files\09-Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\02-Dereferencing pointer.cpp">
+      <Filter>Source Files\09-Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\03-Common Mistakes with Pointer.cpp">
+      <Filter>Source Files\09-Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\04-Pointer vs References.cpp">
+      <Filter>Source Files\09-Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\05-Call by Reference using Pointer.cpp">
+      <Filter>Source Files\09-Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\06-Pointers and Arrays.cpp">
+      <Filter>Source Files\09-Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\07-Pointers and Structure.cpp">
+      <Filter>Source Files\09-Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="09-Pointers\08-Pointer to void.cpp">
+      <Filter>Source Files\09-Pointers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
