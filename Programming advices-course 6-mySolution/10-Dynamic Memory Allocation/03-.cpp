@@ -1,0 +1,1 @@
+// I learned the comprehensive architecture of RAM segments: 'Source Code' for execution instructions, 'Static/Global' for persistent data, 'Stack' for fast, automatic allocation of local variables and function scopes, and 'Heap' for flexible, developer-managed dynamic memory allocation.

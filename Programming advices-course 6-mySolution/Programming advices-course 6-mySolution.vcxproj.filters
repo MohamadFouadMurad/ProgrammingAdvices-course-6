@@ -78,9 +78,6 @@
     <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
       <Filter>Source Files\01-Debugging</Filter>
     </ClCompile>
-    <ClCompile Include="10-Dynamic Memory Allocation\9.cpp">
-      <Filter>Source Files\10-Dynamic Memory Allocation</Filter>
-    </ClCompile>
     <ClCompile Include="11-Vectors Part II\10.cpp">
       <Filter>Source Files\11-Vectors Part II</Filter>
     </ClCompile>
@@ -200,6 +197,15 @@
     </ClCompile>
     <ClCompile Include="09-Pointers\08-Pointer to void.cpp">
       <Filter>Source Files\09-Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="10-Dynamic Memory Allocation\01-.cpp">
+      <Filter>Source Files\10-Dynamic Memory Allocation</Filter>
+    </ClCompile>
+    <ClCompile Include="10-Dynamic Memory Allocation\02-.cpp">
+      <Filter>Source Files\10-Dynamic Memory Allocation</Filter>
+    </ClCompile>
+    <ClCompile Include="10-Dynamic Memory Allocation\03-.cpp">
+      <Filter>Source Files\10-Dynamic Memory Allocation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
