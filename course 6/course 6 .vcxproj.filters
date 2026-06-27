@@ -78,12 +78,6 @@
     <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
       <Filter>Source Files\01-Debugging</Filter>
     </ClCompile>
-    <ClCompile Include="11-Vectors Part II\10.cpp">
-      <Filter>Source Files\11-Vectors Part II</Filter>
-    </ClCompile>
-    <ClCompile Include="12-Exception Handling\11.cpp">
-      <Filter>Source Files\12-Exception Handling</Filter>
-    </ClCompile>
     <ClCompile Include="13-Dealing With Strings\12.cpp">
       <Filter>Source Files\13-Dealing With Strings</Filter>
     </ClCompile>
@@ -198,14 +192,26 @@
     <ClCompile Include="09-Pointers\08-Pointer to void.cpp">
       <Filter>Source Files\09-Pointers</Filter>
     </ClCompile>
-    <ClCompile Include="10-Dynamic Memory Allocation\01-.cpp">
+    <ClCompile Include="10-Dynamic Memory Allocation\01-Memory Management using new and delete.cpp">
       <Filter>Source Files\10-Dynamic Memory Allocation</Filter>
     </ClCompile>
-    <ClCompile Include="10-Dynamic Memory Allocation\02-.cpp">
+    <ClCompile Include="10-Dynamic Memory Allocation\02-Dynamic Arrays using new and delete.cpp">
       <Filter>Source Files\10-Dynamic Memory Allocation</Filter>
     </ClCompile>
-    <ClCompile Include="10-Dynamic Memory Allocation\03-.cpp">
+    <ClCompile Include="10-Dynamic Memory Allocation\03-Stack vs Heap.cpp">
       <Filter>Source Files\10-Dynamic Memory Allocation</Filter>
+    </ClCompile>
+    <ClCompile Include="11-Vectors Part II\01-Access Elements.cpp">
+      <Filter>Source Files\11-Vectors Part II</Filter>
+    </ClCompile>
+    <ClCompile Include="11-Vectors Part II\02-Change Elements.cpp">
+      <Filter>Source Files\11-Vectors Part II</Filter>
+    </ClCompile>
+    <ClCompile Include="11-Vectors Part II\03-Vector Iterators.cpp">
+      <Filter>Source Files\11-Vectors Part II</Filter>
+    </ClCompile>
+    <ClCompile Include="12-Exception Handling\01-Try Catch.cpp">
+      <Filter>Source Files\12-Exception Handling</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
