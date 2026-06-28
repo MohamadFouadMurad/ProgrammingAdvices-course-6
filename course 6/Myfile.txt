@@ -1,0 +1,4 @@
+this is the first line using Write mode.
+this is the second line using Write mode .
+this is new line using append mode
+this is also another file using append mode .

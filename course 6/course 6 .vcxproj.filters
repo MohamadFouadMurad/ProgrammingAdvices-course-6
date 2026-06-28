@@ -78,15 +78,6 @@
     <ClCompile Include="01-Debugging\06-Step Into and Over and Out .cpp">
       <Filter>Source Files\01-Debugging</Filter>
     </ClCompile>
-    <ClCompile Include="13-Dealing With Strings\12.cpp">
-      <Filter>Source Files\13-Dealing With Strings</Filter>
-    </ClCompile>
-    <ClCompile Include="14-Files\13.cpp">
-      <Filter>Source Files\14-Files</Filter>
-    </ClCompile>
-    <ClCompile Include="15-DateTime\14.cpp">
-      <Filter>Source Files\15-DateTime</Filter>
-    </ClCompile>
     <ClCompile Include="02-Miscellaneous\01-Create My Own Library.cpp">
       <Filter>Source Files\02-Miscellaneous</Filter>
     </ClCompile>
@@ -212,6 +203,39 @@
     </ClCompile>
     <ClCompile Include="12-Exception Handling\01-Try Catch.cpp">
       <Filter>Source Files\12-Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="13-Dealing With Strings\01-String Objects.cpp">
+      <Filter>Source Files\13-Dealing With Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="13-Dealing With Strings\02-Some CCTYPE Functions.cpp">
+      <Filter>Source Files\13-Dealing With Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="14-Files\01-Write mode Write data to File.cpp">
+      <Filter>Source Files\14-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="14-Files\02-Append mode Append data to file.cpp">
+      <Filter>Source Files\14-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="14-Files\03-Read mode Print file content.cpp">
+      <Filter>Source Files\14-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="14-Files\04-Load data from file to vector.cpp">
+      <Filter>Source Files\14-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="14-Files\05-Save vector to file.cpp">
+      <Filter>Source Files\14-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="14-Files\06-Delete Record from File.cpp">
+      <Filter>Source Files\14-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="14-Files\07-Update Record in File.cpp">
+      <Filter>Source Files\14-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="15-DateTime\01-Datetime local UTC time.cpp">
+      <Filter>Source Files\15-DateTime</Filter>
+    </ClCompile>
+    <ClCompile Include="15-DateTime\02-DateTime Structure.cpp">
+      <Filter>Source Files\15-DateTime</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
