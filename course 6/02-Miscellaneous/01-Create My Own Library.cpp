@@ -3,11 +3,7 @@
 #include <string>
 #include <cmath>
 
-
-
 #include "../MyHeaders/MyMathFunctions.h"
-
-
 
 using namespace std;
 using namespace myfunc;

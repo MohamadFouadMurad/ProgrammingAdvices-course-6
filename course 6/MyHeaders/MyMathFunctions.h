@@ -80,17 +80,20 @@ namespace InPut
 			cout << message << "From" + to_string(from) + "To" + to_string(to) << endl;
 			cin >> num;
 		} while (num > to || num < from);
+
 		return num;
 	}
 
 	int ReadPositiveNumber(string message)
 	{
 		int num;
+
 		do
 		{
 			cout << message << endl;
 			cin >> num;
 		} while (num < 0);
+
 		return num;
 	}
 }
@@ -100,6 +103,7 @@ namespace OutPut
 	void FindNumberIndex(int arr[100], int arrLength, int target)
 	{
 		cout << "number you are looking for is: " << target << endl;
+
 		for (int i = 0; i < arrLength; i++)
 		{
 			if (target == arr[i])
@@ -109,6 +113,7 @@ namespace OutPut
 				return;
 			}
 		}
+
 		cout << "the number is not found :-(\n";
 	}
 
@@ -129,10 +134,12 @@ namespace OutPut
 	string Taps(short NumberOfTaps)
 	{
 		string tap = "";
+
 		for (int i = 1; i <= NumberOfTaps; i++)
 		{
 			tap += "\t";
 		}
+
 		return tap;
 	}
 
@@ -160,7 +167,7 @@ namespace Helpers
 		}
 	}
 
-	string WordGeneration()
+	string GenerateWord()
 	{
 		string word = "";
 		word = char(RandomNumber(65, 90));
@@ -170,19 +177,19 @@ namespace Helpers
 		return word;
 	}
 
-	string TextGeneration()
+	string GenerateCode()
 	{
-		string Text = WordGeneration() + "-";
-		Text += WordGeneration() + "-";
-		Text += WordGeneration() + "-";
-		Text += WordGeneration();
+		string Text = GenerateWord() + "-";
+		Text += GenerateWord() + "-";
+		Text += GenerateWord() + "-";
+		Text += GenerateWord();
 		return Text;
 	}
 
 	void FillStringArray(string arr[], int arrLength)
 	{
 		for (int i = 0; i < arrLength; i++)
-			arr[i] = TextGeneration();
+			arr[i] = GenerateCode();
 	}
 
 	bool IsInArray(int searchValue, int arr[], int arrLength)
@@ -211,7 +218,9 @@ namespace Helpers
 		for (int i = 0; i < arrLength; i++)
 		{
 			if (arr[i] != arr[arrLength - i - 1])
+			{
 				return false;
+			}
 		}
 		return true;
 	}
