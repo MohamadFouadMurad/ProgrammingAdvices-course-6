@@ -1,6 +1,8 @@
-this is the first line using Write mode.
-this is the second line using Write mode .
-this is new line using append mode
-Mohamad 
-Zinab
-sara
+Omar
+Mohamad
+Maher
+Fadi
+shadi
+lama
+Omar
+Mohamad
