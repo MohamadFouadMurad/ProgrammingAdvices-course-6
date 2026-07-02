@@ -3,28 +3,28 @@
 using namespace std;
 
 
-
-int main()
-{
-
-	int x[3][4] = { {1,2,3,4} , {5,6,7,8} , {9,10,11,12} };
-
-
-
-	for (int i = 0; i < 3; i++)
-	{
-		for (int j = 0; j < 4; j++) 
-		{
-			cout << x[i][j] << " ";
-		}
-		cout << endl;
-	}
-	return 0;
-}
+//
+//int main()
+//{
+//
+//	int x[3][4] = { {1,2,3,4} , {5,6,7,8} , {9,10,11,12} };
+//
+//
+//
+//	for (int i = 0; i < 3; i++)
+//	{
+//		for (int j = 0; j < 4; j++) 
+//		{
+//			cout << x[i][j] << " ";
+//		}
+//		cout << endl;
+//	}
+//	return 0;
+//}
 
 
 //homework
-/*
+
 void MultiplicationArray(int x[10][10])
 {
 	for (int i = 0; i < 10; i++)
@@ -42,7 +42,7 @@ void PrintArray(int x[10][10])
 	{
 		for (int j = 0; j < 10; j++)
 		{
-			printf("%0*d ", 2, x[i][j]);
+			printf("%02d ", x[i][j]);
 		}
 		cout << endl;
 	}
@@ -50,7 +50,7 @@ void PrintArray(int x[10][10])
 
 int main()
 {
-	//int x[10][10];
+	int x[10][10];
 
 	MultiplicationArray(x);
 	PrintArray(x);
@@ -72,11 +72,10 @@ int main()
 	{
 		for (int j = 1; j < 11; j++)
 		{
-			printf("%0*d ", 2, x[i][j]);
+			printf("%02d ", x[i][j]);
 		}
 		cout << endl;
 	}
-	
+	*/
 	return 0;
 }
-*/

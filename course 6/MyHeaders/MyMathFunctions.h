@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 
 namespace myfunc
@@ -66,6 +67,14 @@ namespace myfunc
 		}
 
 		return Number;
+	}
+	
+	void SetWidthInCenter(int  Width, string message)
+	{
+		int Length = message.length();
+		int afterspace = (Width - Length) / 2;
+		int beforespace = Width - afterspace;
+		cout << setw(beforespace) << message << setw(afterspace) << "";
 	}
 
 }
