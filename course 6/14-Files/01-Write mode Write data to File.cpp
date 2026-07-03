@@ -12,9 +12,11 @@ int main()
 
 	if (MyFile.is_open())
 	{
-		MyFile << "this is the first line using Write mode.\n";
-		MyFile << "this is the second line using Write mode .\n";
-
+		MyFile << "mohamad\n";
+		MyFile << "lama\n";
+		MyFile << "abdo\n";
+		MyFile << "lana\n";
+		MyFile << "fadi\n";
 		MyFile.close();
 
 	}
